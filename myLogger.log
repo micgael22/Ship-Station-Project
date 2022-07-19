@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-07-15T13:04:03.783451600Z</date>
+  <millis>1657890243783</millis>
+  <nanos>451600</nanos>
+  <sequence>4</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>com.loginToWebpage.TC_01_Emily</class>
+  <method>loginTest01</method>
+  <thread>1</thread>
+  <message>URL is open</message>
+</record>
+<record>
+  <date>2022-07-15T13:04:10.196940800Z</date>
+  <millis>1657890250196</millis>
+  <nanos>940800</nanos>
+  <sequence>5</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>com.loginToWebpage.TC_01_Emily</class>
+  <method>loginTest01</method>
+  <thread>1</thread>
+  <message>Entered UserName</message>
+</record>
+<record>
+  <date>2022-07-15T13:04:11.002253700Z</date>
+  <millis>1657890251002</millis>
+  <nanos>253700</nanos>
+  <sequence>6</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>com.loginToWebpage.TC_01_Emily</class>
+  <method>loginTest01</method>
+  <thread>1</thread>
+  <message>Entered Password</message>
+</record>
+<record>
+  <date>2022-07-15T13:04:18.209019200Z</date>
+  <millis>1657890258209</millis>
+  <nanos>19200</nanos>
+  <sequence>7</sequence>
+  <logger>global</logger>
+  <level>INFO</level>
+  <class>com.loginToWebpage.TC_01_Emily</class>
+  <method>loginTest01</method>
+  <thread>1</thread>
+  <message>Login test Password</message>
+</record>
+</log>
