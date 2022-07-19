@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test Suite">
+
+    <test name="To Excel-TestCases">
+        <packages>
+            <package name="com.toExcelShipStation.testCases"/>
+        </packages>
+    </test>
+
+    <test name="Employees Logging in">
+        <packages>
+            <package name="com.loginToWebpage."/>
+        </packages>
+    </test>
+
+    <test name="Insert Data xlsx.file">
+        <packages>
+            <package name="com.insertingData"/>
+        </packages>
+    </test>
+
+    <test name="Insert DataBase">
+        <packages>
+            <package name="com.insertIntoDB.testCases"/>
+        </packages>
+    </test>
+
+    <!--
+    <test name="Individual classTesting ">
+        <classes>
+            <class name="com.fromExcel.testCase.ConsoleData">com.fromExcel.testCase.ConsoleData</class>
+        </classes>
+    </test>
+    -->
+</suite>
