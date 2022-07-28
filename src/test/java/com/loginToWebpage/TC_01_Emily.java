@@ -8,6 +8,7 @@ public class TC_01_Emily extends BaseClass03{
 
     @Test
     public void loginTest01() {
+        userName = "Emily";
 
         //Login Details
         userID = "mngr423957";
@@ -33,6 +34,12 @@ public class TC_01_Emily extends BaseClass03{
             Assert.assertTrue(false);
             logR.info("Login test failed");
         }
-        System.out.println(">>> Emily insert login details successfully!! <<<");
+
+        //insert details in properties file
+        config.setProperty("userName","Emily");
+        config.setProperty("userID", "mngr423957");
+        config.setProperty("password","masujev");
+
+        System.out.println(">>> " + userName + " insert login details successfully!! <<<");
     }
 }

@@ -7,6 +7,7 @@ import pageObjects.LoginPage;
 public class TC_15_Precious extends BaseClass03{
     @Test
     public void loginTest15() {
+        userName = "Precious";
 
         //Login Details
         userID = "mngr423972";
@@ -32,6 +33,12 @@ public class TC_15_Precious extends BaseClass03{
             Assert.assertTrue(false);
             logR.info("Login test failed");
         }
-        System.out.println(">>> Precious insert login details successfully!! <<<");
+
+        //insert details in properties file
+        config.setProperty("userName", "Precious");
+        config.setProperty("userID", "mngr423972");
+        config.setProperty("password", "ebebUtA");
+
+        System.out.println(">>> " + userName + " insert login details successfully!! <<<");
     }
 }

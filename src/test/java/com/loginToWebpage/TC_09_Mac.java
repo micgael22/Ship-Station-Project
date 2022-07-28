@@ -8,6 +8,7 @@ public class TC_09_Mac extends BaseClass03{
 
     @Test
     public void loginTest09() {
+        userName = "Mac";
 
         //Login Details
         userID = "mngr423966";
@@ -33,6 +34,12 @@ public class TC_09_Mac extends BaseClass03{
             Assert.assertTrue(false);
             logR.info("Login test failed");
         }
-        System.out.println(">>> Mac insert login details successfully!! <<<");
+
+        //insert details in properties file
+        config.setProperty("userName", "Mac");
+        config.setProperty("userID", "mngr423966");
+        config.setProperty("password", "ebUbupU");
+
+        System.out.println(">>> " + userName + " insert login details successfully!! <<<");
     }
 }
