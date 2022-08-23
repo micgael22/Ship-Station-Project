@@ -2,7 +2,7 @@ package com.insertIntoDB.testCases;
 
 import org.testng.annotations.Test;
 
-public class TC_02_sponsor extends BaseClass04{
+public class TC_02_sponsor extends BaseC_02 {
     @Test
     public void sponsor02() {
         sponsor_ID = 21;
